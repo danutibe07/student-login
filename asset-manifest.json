@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/danutibe07/student-login.git/static/css/main.c0cfacb9.css",
+    "main.js": "/danutibe07/student-login.git/static/js/main.8ae96323.js",
+    "static/media/img3.svg": "/danutibe07/student-login.git/static/media/img3.0ab370d2f26dedc9106d8f892c2c3c09.svg",
+    "static/media/img1.svg": "/danutibe07/student-login.git/static/media/img1.68dbf4d07118e20cd9e5cdd5c72c6583.svg",
+    "static/media/img2.svg": "/danutibe07/student-login.git/static/media/img2.500796b27085adba64596d31e9bb5659.svg",
+    "index.html": "/danutibe07/student-login.git/index.html",
+    "main.c0cfacb9.css.map": "/danutibe07/student-login.git/static/css/main.c0cfacb9.css.map",
+    "main.8ae96323.js.map": "/danutibe07/student-login.git/static/js/main.8ae96323.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0cfacb9.css",
+    "static/js/main.8ae96323.js"
+  ]
+}

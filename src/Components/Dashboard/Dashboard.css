@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Patua+One&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Macondo&family=Quicksand&display=swap');
+.container{
+    display: grid;
+    grid-template-columns: 250px auto;
+    color: white;
+}
+.contents a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+li{
+    list-style: none;
+    color: white;
+    padding-top: 50px;
+}
+.contents{
+    margin-top: 70px;
+}
+.heads{
+    margin-top: 50px;
+    font-family: 'Patua One';
+    color: white;
+}
+.dashboardcontainer{
+    margin-left: -100px;
+    margin-right: 80px;
+}
+.deat img{
+    margin-top: 10px;
+    margin-left: 650px;
+    float: right;
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+.deat2 h2{
+    float: left;
+    padding-top: 200px;
+    width: 300px;
+    font-family: 'Macondo';
+    font-size: 50px;
+}

@@ -1,0 +1,27 @@
+.courseinfo{
+    color: #ffffff;
+    padding-top: 30px;
+}
+h1, p{
+    color: white;
+    text-align: center;
+}
+p{
+    padding: 0 20%;
+    font-size: 20px;
+}
+li{
+    text-align: center;
+}
+.courseinfo a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.courseinfo a:hover{
+    background-color: white;
+}

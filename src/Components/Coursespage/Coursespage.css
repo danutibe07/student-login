@@ -1,0 +1,22 @@
+.courses h2{
+    background-color: white;
+    width: 280px;
+    height: 200px;
+    color:  #6C63FF;
+    margin: 20px;   
+    text-align: center;
+    padding-top: 80px;
+    border-radius: 10px;
+}
+.courses , .box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    margin-top: 30px;
+}
+.courses a{
+    color: white;
+    text-decoration: none;
+}
+.info{
+    color: white;
+}

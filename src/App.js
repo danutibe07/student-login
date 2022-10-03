@@ -1,7 +1,6 @@
 import { Route , Routes} from "react-router-dom";
 import Coursepage from "./Components/Coursepage /Coursepage";
 import Coursespage from "./Components/Coursespage/Coursespage";
-import Dashboard from "./Components/Dashboard/Dashboard";
 import Dashboard2 from "./Components/Dashboard/Dashboard2";
 import Landingpage from './Components/Landingpage/Landingpage';
 import Login from "./Components/Login/Login";
@@ -15,7 +14,6 @@ function App() {
       <Routes>
           <Route exact path="/land" element={<Landingpage />} /> 
            <Route exact path="/" element={<Login />} />
-          <Route exact path="/dash" element={<Dashboard />} /> 
           <Route exact path="/dashboard2" element={<Dashboard2 />} />
           <Route exact path="/courses" element={<Coursespage data={courses}/>} />
           <Route exact path="/course/:id" element={<Coursepage data={courses}/>} />
@@ -26,5 +24,4 @@ function App() {
   </div>
   );
 }
-
 export default App;

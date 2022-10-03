@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useNavigate } from "react-router-dom";
-import "../Dash/dash.css";
 import { auth, db, logout } from "../firebase";
-import { query, collection, getDocs, where } from "firebase/firestore";
+import "./Profile.css"
 import { Link } from "react-router-dom";
-import Dashboard1 from "../Dashboard/Dashboard1";
+import { query, collection, getDocs, where } from "firebase/firestore";
 function Profile() {
   const [user, loading, error] = useAuthState(auth);
   const [uname, setName] = useState("");
@@ -18,7 +17,6 @@ function Profile() {
       setName(data.name);
     } catch (err) {
       console.error(err);
-      alert("Couldn't get username");
     }
   };
   useEffect(() => {
@@ -28,10 +26,11 @@ function Profile() {
   }, [user, loading]);
   return (
     <div className="dashboard">
+      <li><Link to="/dashboard2">back</Link></li>
       <div className="dashboard__container">
-        Logged in as
-        <div>{uname}</div>
-        <div>{user?.email}</div>
+        <h3>You are Logged in as</h3>
+        <h2> Name: {user?.email.substr(0,user?.email.indexOf('@'))}</h2>
+        <h2>Email: {user?.email}</h2>
         <button className="dashboard__btn" onClick={logout}>
           Logout
         </button>

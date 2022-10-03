@@ -18,5 +18,4 @@ const Coursepage = ({data}) => {
     </div>     
   )
 }
-
 export default Coursepage
